@@ -14,6 +14,4 @@ info here
 
 ## Stretch goals
 
-1. It would be nice if the price filters were constrained by the lowest/highest available price on the page (so you don't end up filtering everything away)
-1. Add a text input that lets users search for dishes by title
-1. Make it look even better 💅
+stretch goals here
