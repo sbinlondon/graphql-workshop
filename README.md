@@ -1,6 +1,6 @@
 # Workshop
 
-Georgia and Kate's graphql workshop for Fac 20.
+Georgia and Kate's graphql workshop for Fac 20 (with many thanks to @oliverjam for the [project structure](https://github.com/oliverjam/react-food-workshop)!)
 
 ## Project setup
 
