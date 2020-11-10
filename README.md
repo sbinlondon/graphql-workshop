@@ -16,10 +16,10 @@
 
 ## *Learning outcomes*:
 
-* We can make a GraphQL request from our frontend and receive a response
-* We can handle and display GraphQL errors properly
-* We can pass variables into our GraphQL queries
-* We have an understanding of what makes GraphQL different from REST and know its pros and cons
+- [ ] We can make a GraphQL request from our frontend and receive a response
+- [ ] We can handle and display GraphQL errors properly
+- [ ] We can pass variables into our GraphQL queries
+- [ ] We have an understanding of what makes GraphQL different from REST and know its pros and cons
 
 ## *Groups for the day*:
 
