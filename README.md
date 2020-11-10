@@ -130,3 +130,4 @@ Kate and Georgia
 * GraphQL APIs to browse and use: https://github.com/APIs-guru/graphql-apis
 * The GrphQL spec if you want to nerd out: https://github.com/graphql/graphql-spec
 * If you want to try building your own GraphQL API: https://moonhighway.com/building-a-graphql-server-in-five-minutes
+* Great article going over what we've learnt in ten snappy images https://dev.to/methodcoder/graphql-crash-course-in-10-pics-3b04
