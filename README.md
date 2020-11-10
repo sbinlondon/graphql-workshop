@@ -117,7 +117,7 @@ We’ll keep the presentations to a maximum of 8 minutes for each group - that�
 
 Thank you so much for inviting us into your classroom for the day and letting us ramble on about GraphQL! 
 
-This is the first time we’ve run this workshop, so we’d love to get your feedback on how you felt it went so that we can improve it for future FAC cohorts. There’s a link to a google form here, with three simple questions to answer. It shouldn’t take you more than five minutes!
+This is the first time we’ve run this workshop, so we’d love to get your feedback on how you felt it went so that we can improve it for future FAC cohorts. There’s a link to a google form [here](https://forms.gle/7WYA165tykc1jE7w8), with three simple questions to answer. It shouldn’t take you more than five minutes!
 
 Also, if you enjoyed GraphQL and want to know more, Eve Porcello from Moon Highway runs monthly free webinars to get you started. The next one is on Saturday, December 1 at 5:00 PM GMT. https://moonhighway.com/graphql/everyone/
 
