@@ -38,6 +38,26 @@ We’d like you to spend the morning engaging with the resources in the list bel
 
 You’ll also notice that for every subject, there is a reading and video resource available. Each resource covers the same information, so you may choose which resource you want to use. You can use both, but do not feel that you have to, and there’s probably not enough time to get through them all this morning. Remember, you can always come back to them at a later date.
 
+### Key resources
+
+| Subject | Reading resource | Video resource |
+|-----|-----|-----|
+| Introduction to GraphQL | https://moonhighway.com/graphql-query-language| | https://www.howtographql.com/basics/0-introduction/ |
+| Comparing GraphQL to Restful | https://medium.com/@back4apps/graphql-vs-rest-62a3d6c2021d | https://www.howtographql.com/basics/1-graphql-is-the-better-rest/ |
+| Fetching data | https://moonhighway.com/fetching-data-from-a-graphql-api | https://www.howtographql.com/basics/2-core-concepts/ |
+
+### Additional resources
+
+| Subject | Reasing resource | Video resource |
+| ----- | ----- | ----- |
+| Query arguments | https://moonhighway.com/query-arguments, https://www.digitalocean.com/community/tutorials/understanding-queries-in-graphql | |
+| Fragment | https://moonhighway.com/graphql-fragments, https://www.digitalocean.com/community/tutorials/understanding-queries-in-graphql | https://www.youtube.com/watch?v=AAHR7eBKLU8 | |
+| Variables | https://www.digitalocean.com/community/tutorials/understanding-queries-in-graphql | |
+| Mutations | https://moonhighway.com/understanding-graphql-mutations | https://www.howtographql.com/basics/2-core-concepts/ |
+| Schema | https://moonhighway.com/schema-definition-language | https://www.howtographql.com/basics/2-core-concepts/ |
+| Introspection queries | https://moonhighway.com/five-introspection-queries | |
+
+
 ### Topics
 
 Everyone should read about queries and mutations - everything else stems from here!
