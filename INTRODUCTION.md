@@ -168,44 +168,223 @@ Now your turn: pick another random country and get a random fact for us about it
 
 ## Bonus queries:
 
-Some sample queries to play around with.
+Some sample queries to play around with in the [GraphQL Playground](https://countries-274616.ew.r.appspot.com/) now or later.
 
-* Plain query: 
-
-```
-```
-
-* Query with variable:
+* **Plain query: **
 
 ```
+query {
+  Country(name: "Germany") {
+    name
+    nativeName
+    officialLanguages {
+      name
+    }
+  }
+}
 ```
 
-* Query with multiple variables: 
+* **Query with variable:**
 
 ```
+query getCountry($name:String) {
+  Country(name: $name) {
+    name
+    area
+    capital
+    location {
+      latitude
+      longitude
+    }
+    borders {
+      name
+      nativeName
+    }
+    distanceToOtherCountries(first: 5) {
+      distanceInKm
+      countryName
+    }
+    shortestPathToOtherCountry(otherCountryAlpha2Code: "MN") {
+      name
+    }
+  }
+}
 ```
 
-* Query with fragments: 
+Query variables
+
 
 ```
+{
+	"name": "Germany"
+}
 ```
 
-* Query with filters: 
+* **Query with multiple variables: **
 
 ```
+query getCountry($firstCountry: String, $secondCountry: String!) {
+  Country(name: $firstCountry) {
+    name
+    capital
+    area
+    population
+    populationDensity
+    location {
+      latitude
+      longitude
+    }
+    shortestPathToOtherCountry(otherCountryAlpha2Code: $secondCountry) {
+      name
+      capital
+      area
+      population
+      populationDensity
+      location {
+        latitude
+        longitude
+      }
+    }
+  }
+}
 ```
 
-* Query with fragments and filters: 
+Query variables
+
 
 ```
+{
+	"firstCountry": "Germany",
+	"secondCountry": "MN"
+}
 ```
 
-* Multiple queries in one with fragments: 
+* **Query with fragments:**
 
 ```
+query getCountry($firstCountry: String, $secondCountry: String!) {
+  Country(name: $firstCountry) {
+    ...countryInfo
+    shortestPathToOtherCountry(otherCountryAlpha2Code: $secondCountry) {
+      ...countryInfo
+    }
+  }
+}
+
+fragment countryInfo on Country {
+  name
+  capital
+  area
+  population
+  populationDensity
+  location {
+    latitude
+    longitude
+  }
+}
+
 ```
 
-* Multiple queries in one with variables in fragments: 
+Query variables
+
 
 ```
+{
+	"firstCountry": "Germany",
+	"secondCountry": "MN"
+}
+```
+
+* **Query with directives:**
+
+```
+query getCountry($name: String, $withTranslations: Boolean!, $noFunAllowed:Boolean!) {
+  Country(name: $name) {
+    name
+    flag @skip(if:$noFunAllowed) {
+      emoji
+    }
+    borders {
+      name
+      nativeName
+    }
+    ...translations @include(if: $withTranslations)
+  }
+}
+
+fragment translations on Country {
+  nameTranslations(first: 5) {
+    languageCode
+    value
+  }
+}
+
+```
+
+Query variables (try changing one to true after you run the query the first time)
+
+```
+{
+  "name": "Germany",
+  "withTranslations": false,
+  "noFunAllowed": false
+}
+```
+
+* **Query with filters:**
+
+Filters aren't available on every GraphQL API but if it's attached to a database often you have filters like 'greater than', 'less than or equal to', etc.
+
+```
+query getCountry($name: String!) {
+  Country(name: $name) {
+    name
+    nameTranslations(first: 10, orderBy: languageCode_asc, filter: {OR: [{languageCode_contains: "e"}, {languageCode_not_starts_with: "d"}]}) {
+      languageCode
+      value
+    }
+  }
+}
+
+```
+
+Query variables
+
+
+```
+{
+	"name": "Germany"
+}
+```
+
+* Multiple queries in one operation with variables in fragments: 
+
+```
+query countryComparison($firstCountryName: String!, $secondCountryName: String!, $first: Int = 5) {
+  firstCountry: Country(name: $firstCountryName) {
+    ...comparisonFields
+  }
+  secondCountry: Country(name: $secondCountryName) {
+    ...comparisonFields
+  }
+}
+
+fragment comparisonFields on Country {
+  name
+  nativeName
+  distanceToOtherCountries(first: $first) {
+    distanceInKm
+    countryName
+  }
+}
+
+```
+
+Query variables
+
+```
+{
+	"firstCountryName": "Germany",
+	"secondCountryName": "Indonesia"
+}
 ```
