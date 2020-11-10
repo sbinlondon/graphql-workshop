@@ -33,7 +33,7 @@ Or if you're feeling adventurous, try out a different GraphQL API from [this lis
 * Have multiple UI inputs that change variables in your query
 * Make use of query arguments/filters that are available in your chosen API
 * Make use of fragments
-* Use the Apollo GraphQL library instead of plain fetch for queries (see the different versions of `App.js` and `index.js` in [this folder](https://github.com/sbinlondon/graphql-workshop/tree/main/solution-with-apollo))
+* Use the Apollo GraphQL client instead of plain fetch for queries (see the different versions of `App.js` and `index.js` in [this folder](https://github.com/sbinlondon/graphql-workshop/tree/main/solution-with-apollo))
 
 ### Project presentation:
 
