@@ -82,8 +82,7 @@ Then for each group, study these more in-depth topics and prepare presentations 
 
 ### Research topic presentation
 
-You should aim to start working on your presentations around 12:00pm. 
-We will meet in the main room for presentations at 12.30pm.
+You should aim to start working on your presentations around 12:00pm. We will meet in the main room for presentations at 12.30pm. You'll have 6 minutes for your presentation, and everyone should speak for an equal amount of time, so about 90 seconds per teammate.
 
 Your research presentation can include any information you’ve picked up during your morning research, but should focus on your specific research subject. 
 
