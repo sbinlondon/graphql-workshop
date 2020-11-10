@@ -5,9 +5,10 @@
 
 | **Time** | **Task** |
 | -------- | -------- |
-|   10am - 10.45am   | <ul><li>Introduction from Kate and Georgia</li><li>Outline learning outcomes and schedule for the day</li><li>Short demo of how GraphQL works (https://hackmd.io/LDZVheGLTXq2Z2PBMpAxKw)</li></ul> |
-|   10.45am - 12.15pm   | Read resources and prepare a presentation in your groups |
-|  12.15pm - 1pm   |Presentations to cohort |
+|   10am - 10.30am   | <ul><li>Introduction from Kate and Georgia</li><li>Outline learning outcomes and schedule for the day</li><li>Short demo of how GraphQL works (https://hackmd.io/LDZVheGLTXq2Z2PBMpAxKw)</li></ul> |
+| 10.30am - 11.00 am | Read about queries and mutations, then quick discussion/questions as a group |
+|   10.30am - 12.15pm   | Read more in-depth resources and prepare a presentation in your groups |
+|  12.15pm - 1pm   | Presentations to cohort |
 |  1pm - 2pm   | Break for lunch|
 |  2pm - 2.10pm   | Prepare for afternoon projects|
 |   2.10pm - 5pm  | <ul><li>Working on projects + presentations</li><li>Working on stretch goals if finished early</li></ul>|
@@ -15,9 +16,10 @@
 
 ## *Learning outcomes*:
 
-We can make a GraphQL request and receive a response
-We can handle and display GraphQL errors ‘prettily’
-We can pass variables into our GraphQL queries
+* We can make a GraphQL request from our frontend and receive a response
+* We can handle and display GraphQL errors properly
+* We can pass variables into our GraphQL queries
+* We have an understanding of what makes GraphQL different from REST and know its pros and cons
 
 ## *Groups for the day*:
 
@@ -44,19 +46,21 @@ Resources:
 
 * Queries: 
 * Mutations: 
+* Clients: https://graphql.org/graphql-js/graphql-clients/
 
 Then for each group, study these more in-depth topics and prepare presentations on them.
 
 #### Query Crusaders
 
-* Queries: query arguments (or filters), variables, fragments
-* How to use the GraphiQL/GraphQL Playground to test out queries
+* What are query arguments (or filters)?
+* How do we use fragments in queries? Why would we?
+* What is an operation name and how/why would we use it?
 * Show some examples of queries using these things so we can see correct syntax
-* How is a query sent over HTTP? In Node?
 
 #### Mutation Monsters
 
-* Mutations: mutation arguments (like function arguments), arguments as variables, fragments (when used with queries)
+* What are mutation arguments (like function arguments)? Can we use variables as arguments?
+* How can we tell if an argument is necessary or optional for a mutation?
 * What is an 'input' in relation to mutations?
 * Show some examples of mutations using these things so we can see correct syntax
 * Do mutations always return the same fields as in the query? If not, how/when/why would we return different fields?
@@ -64,26 +68,28 @@ Then for each group, study these more in-depth topics and prepare presentations 
 #### Type Troubadors
 
 * What are types, and why do they matter?
-* What kinds of types are there?
-* Show us how a custom type is defined and how the syntax would look
-
-#### Resolver Rapscallions
-
+* What kinds of types are there? 
+* Can you make custom types?
 * What is the schema?
-* What is introspection and how does it relate to the schema?
-* What does a resolver do?
 
-### Research presentation
+#### Request Rapscallions
 
-You should aim to start working on your presentations around 11.45am. 
-We will meet in the main room for presentations at 12.15pm.
+* How do we make requests in Node/React to a GraphQL API?
+* What is the role of caching in GraphQL and why is it important?
+* How can we use the GraphiQL/GraphQL Playground to test out queries?
+* What is a GraphQL client? What are some examples? Why would we use one?
+
+
+### Research topic presentation
+
+You should aim to start working on your presentations around 12:00pm. 
+We will meet in the main room for presentations at 12.30pm.
 
 Your research presentation can include any information you’ve picked up during your morning research, but should focus on your specific research subject. 
 
 We’d like you to tell us the following about your research subject:
 * Explain what your topic is
 * Tell us how you can use it/why it is important in GraphQL
-* Explain when you should (and potentially shouldn’t) use it
 * Include a bibliography listing the resources you used
 
 Additionally, it would be great if you could:
@@ -94,7 +100,7 @@ Additionally, it would be great if you could:
 
 Now we're going to build a small app making use of a GraphQL API.
 
-See the repo and instructions [here]().
+See the instructions [here](https://github.com/sbinlondon/graphql-workshop/blob/main/PROJECT.md).
 
 ### Project presentation
 
