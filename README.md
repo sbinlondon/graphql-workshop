@@ -5,7 +5,7 @@
 
 | **Time** | **Task** |
 | -------- | -------- |
-|   10am - 10.30am   | <ul><li>Introduction from Kate and Georgia</li><li>Outline learning outcomes and schedule for the day</li><li>Short demo of how GraphQL works (https://hackmd.io/LDZVheGLTXq2Z2PBMpAxKw)</li></ul> |
+|   10am - 10.30am   | <ul><li>Introduction from Kate and Georgia</li><li>Outline learning outcomes and schedule for the day</li><li>[Short demo of how GraphQL works](https://github.com/sbinlondon/graphql-workshop/blob/main/INTRODUCTION.md)</li></ul> |
 | 10.30am - 11.00 am | Read key resources, then quick discussion/questions as a group |
 |   10.30am - 12.15pm   | Read more in-depth resources and prepare a presentation in your groups |
 |  12.15pm - 1pm   | Presentations to cohort |
