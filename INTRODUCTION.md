@@ -170,7 +170,7 @@ Now your turn: pick another random country and get a random fact for us about it
 
 Some sample queries to play around with in the [GraphQL Playground](https://countries-274616.ew.r.appspot.com/) now or later.
 
-* **Plain query: **
+* **Plain query:**
 
 ```
 query {
@@ -220,7 +220,7 @@ Query variables
 }
 ```
 
-* **Query with multiple variables: **
+* **Query with multiple variables:**
 
 ```
 query getCountry($firstCountry: String, $secondCountry: String!) {
