@@ -6,7 +6,7 @@
 | **Time** | **Task** |
 | -------- | -------- |
 |   10am - 10.30am   | <ul><li>Introduction from Kate and Georgia</li><li>Outline learning outcomes and schedule for the day</li><li>Short demo of how GraphQL works (https://hackmd.io/LDZVheGLTXq2Z2PBMpAxKw)</li></ul> |
-| 10.30am - 11.00 am | Read about queries and mutations, then quick discussion/questions as a group |
+| 10.30am - 11.00 am | Read key resources, then quick discussion/questions as a group |
 |   10.30am - 12.15pm   | Read more in-depth resources and prepare a presentation in your groups |
 |  12.15pm - 1pm   | Presentations to cohort |
 |  1pm - 2pm   | Break for lunch|
@@ -36,43 +36,39 @@ We have separated you into groups of 4, and you’ll be in the same group for th
 
 We’d like you to spend the morning engaging with the resources in the list below. We’ve separated the reading into a list of key resources and additional resources. Every group should make an effort to read all of the key resources, but of the additional resources, it’s only necessary that you read about the subject you’ll be giving your presentation on. If you have time to read the other additional resources that’s great, but we’d rather you focus your energy on the key resources and your group’s topic first.
 
-You’ll also notice that for every subject, there is a reading and video resource available. Each resource covers the same information, so you may choose which resource you want to use. You can use both, but do not feel that you have to, and there’s probably not enough time to get through them all this morning. Remember, you can always come back to them at a later date.
+You’ll also notice that for almost every subject, there is a reading and video resource available. We have tried to make sure each resource covers the same information so that you may choose which resource you want to use. You can use both, but do not feel that you have to, and there’s probably not enough time to get through them all this morning. Remember, you can always come back to them at a later date. (And if you find resources you think fit better, please let us know so we can add them!)
+
+Everyone should read the key resources, and understand queries and mutations - everything else stems from here! We'll read these for about 20-25 mins in your breakout rooms. Chat with each other while you read to make sure everyone is on the same page, and then have a quick chat in the main room and ask a few questions.
 
 ### Key resources
 
 | Subject | Reading resource | Video resource |
 |-----|-----|-----|
-| Introduction to GraphQL | https://moonhighway.com/graphql-query-language| | https://www.howtographql.com/basics/0-introduction/ |
+| Introduction to GraphQL | https://moonhighway.com/graphql-query-language|, https://moonhighway.com/what-is-the-graphql-spec | https://www.howtographql.com/basics/0-introduction/ |
 | Comparing GraphQL to Restful | https://medium.com/@back4apps/graphql-vs-rest-62a3d6c2021d | https://www.howtographql.com/basics/1-graphql-is-the-better-rest/ |
-| Fetching data | https://moonhighway.com/fetching-data-from-a-graphql-api | https://www.howtographql.com/basics/2-core-concepts/ |
-
-### Additional resources
-
-| Subject | Reasing resource | Video resource |
-| ----- | ----- | ----- |
-| Query arguments | https://moonhighway.com/query-arguments, https://www.digitalocean.com/community/tutorials/understanding-queries-in-graphql | |
-| Fragment | https://moonhighway.com/graphql-fragments, https://www.digitalocean.com/community/tutorials/understanding-queries-in-graphql | https://www.youtube.com/watch?v=AAHR7eBKLU8 | |
-| Variables | https://www.digitalocean.com/community/tutorials/understanding-queries-in-graphql | |
 | Mutations | https://moonhighway.com/understanding-graphql-mutations | https://www.howtographql.com/basics/2-core-concepts/ |
-| Schema | https://moonhighway.com/schema-definition-language | https://www.howtographql.com/basics/2-core-concepts/ |
+| Queries | https://alligator.io/graphql/introduction-graphql-queries/| https://www.youtube.com/watch?v=mE1Jgvn4k1g |
+
+### Topics and additional resources
+
+| Subject | Reading resource | Video resource |
+| ----- | ----- | ----- |
+| Query arguments | https://moonhighway.com/query-arguments, https://www.digitalocean.com/community/tutorials/understanding-queries-in-graphql, https://blog.logrocket.com/graphql-queries-in-simple-terms/ | |
+| Fragment | https://moonhighway.com/graphql-fragments, https://www.digitalocean.com/community/tutorials/understanding-queries-in-graphql, https://blog.logrocket.com/graphql-queries-in-simple-terms/ | https://www.youtube.com/watch?v=AAHR7eBKLU8 | |
+| Variables | https://www.digitalocean.com/community/tutorials/understanding-queries-in-graphql, https://blog.logrocket.com/graphql-queries-in-simple-terms/ | |
+| Schema | https://moonhighway.com/schema-definition-language, https://moonhighway.com/schema-definition-language | https://www.howtographql.com/basics/2-core-concepts/ |
 | Introspection queries | https://moonhighway.com/five-introspection-queries | |
+| Fetching data | https://moonhighway.com/fetching-data-from-a-graphql-api | https://www.howtographql.com/basics/2-core-concepts/ |
+| Clients | https://graphql.org/graphql-js/graphql-clients/, https://moonhighway.com/quick-intro-to-apollo-client | |
+| Custom scalars/types | https://moonhighway.com/creating-custom-scalars | |
+| Resolvers | https://moonhighway.com/the-parent-argument | |
+| When not to use GraphQL | https://blog.logrocket.com/5-reasons-you-shouldnt-be-using-graphql-61c7846e7ed3/ | |
 
-
-### Topics
-
-Everyone should read about queries and mutations - everything else stems from here!
-
-Resources:
-
-* Queries: 
-* Mutations: 
-* Clients: https://graphql.org/graphql-js/graphql-clients/
-
-Then for each group, study these more in-depth topics and prepare presentations on them.
+Then for each group, study these more specific resources and prepare presentations based on the questions your group has.
 
 #### Query Crusaders
 
-* What are query arguments (or filters)?
+* What are arguments, filters, and directives when talking about GraphQL queries?
 * How do we use fragments in queries? Why would we?
 * What is an operation name and how/why would we use it?
 * Show some examples of queries using these things so we can see correct syntax
@@ -81,7 +77,7 @@ Then for each group, study these more in-depth topics and prepare presentations 
 
 * What are mutation arguments (like function arguments)? Can we use variables as arguments?
 * How can we tell if an argument is necessary or optional for a mutation?
-* What is an 'input' in relation to mutations?
+* What is an 'input' in relation to mutations? What are best practices with these?
 * Show some examples of mutations using these things so we can see correct syntax
 * Do mutations always return the same fields as in the query? If not, how/when/why would we return different fields?
 
@@ -90,6 +86,7 @@ Then for each group, study these more in-depth topics and prepare presentations 
 * What are types, and why do they matter?
 * What kinds of types are there? 
 * Can you make custom types?
+* What does strongly-typed mean? Is JavaScript strongly typed?
 * What is the schema?
 
 #### Request Rapscallions
@@ -98,7 +95,6 @@ Then for each group, study these more in-depth topics and prepare presentations 
 * What is the role of caching in GraphQL and why is it important?
 * How can we use the GraphiQL/GraphQL Playground to test out queries?
 * What is a GraphQL client? What are some examples? Why would we use one?
-
 
 ### Research topic presentation
 
@@ -139,7 +135,7 @@ Thank you so much for inviting us into your classroom for the day and letting us
 
 This is the first time we’ve run this workshop, so we’d love to get your feedback on how you felt it went so that we can improve it for future FAC cohorts. There’s a link to a google form [here](https://forms.gle/7WYA165tykc1jE7w8), with three simple questions to answer. It shouldn’t take you more than five minutes!
 
-Also, if you enjoyed GraphQL and want to know more, Eve Porcello from Moon Highway runs monthly free webinars to get you started. The next one is on Saturday, December 1 at 5:00 PM GMT. https://moonhighway.com/graphql/everyone/
+Also, if you enjoyed GraphQL and want to know more, Eve Porcello from Moon Highway runs monthly free webinars to get you started. The next one is on **Saturday, December 1 at 5:00 PM GMT**. https://moonhighway.com/graphql/everyone/
 
 Thanks!
 
@@ -148,6 +144,6 @@ Kate and Georgia
 ### Bonus resources
 
 * GraphQL APIs to browse and use: https://github.com/APIs-guru/graphql-apis
-* The GrphQL spec if you want to nerd out: https://github.com/graphql/graphql-spec
+* The GraphQL spec if you want to nerd out: https://github.com/graphql/graphql-spec
 * If you want to try building your own GraphQL API: https://moonhighway.com/building-a-graphql-server-in-five-minutes
 * Great article going over what we've learnt in ten snappy images https://dev.to/methodcoder/graphql-crash-course-in-10-pics-3b04
