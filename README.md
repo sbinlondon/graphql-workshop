@@ -58,7 +58,7 @@ Everyone should read the key resources, and understand queries and mutations - e
 | Variables | https://www.digitalocean.com/community/tutorials/understanding-queries-in-graphql, https://blog.logrocket.com/graphql-queries-in-simple-terms/ | |
 | Schema | https://moonhighway.com/schema-definition-language, https://moonhighway.com/schema-definition-language | https://www.howtographql.com/basics/2-core-concepts/ |
 | Introspection queries | https://moonhighway.com/five-introspection-queries | |
-| Fetching data | https://moonhighway.com/fetching-data-from-a-graphql-api | https://www.howtographql.com/basics/2-core-concepts/ |
+| Fetching data | https://moonhighway.com/fetching-data-from-a-graphql-api, https://graphql.org/learn/serving-over-http/ | https://www.howtographql.com/basics/2-core-concepts/ |
 | Clients | https://graphql.org/graphql-js/graphql-clients/, https://moonhighway.com/quick-intro-to-apollo-client | |
 | Custom scalars/types | https://moonhighway.com/creating-custom-scalars | |
 | Resolvers | https://moonhighway.com/the-parent-argument | |
