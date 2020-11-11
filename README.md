@@ -44,7 +44,7 @@ Everyone should read the key resources, and understand queries and mutations - e
 
 | Subject | Reading resource | Video resource |
 |-----|-----|-----|
-| Introduction to GraphQL | https://moonhighway.com/graphql-query-language| https://moonhighway.com/what-is-the-graphql-spec | https://www.howtographql.com/basics/0-introduction/ |
+| Introduction to GraphQL | https://moonhighway.com/graphql-query-language, https://moonhighway.com/what-is-the-graphql-spec | https://www.howtographql.com/basics/0-introduction/ | 
 | Comparing GraphQL to Restful | https://medium.com/@back4apps/graphql-vs-rest-62a3d6c2021d | https://www.howtographql.com/basics/1-graphql-is-the-better-rest/ |
 | Mutations | https://moonhighway.com/understanding-graphql-mutations | https://www.howtographql.com/basics/2-core-concepts/ |
 | Queries | https://alligator.io/graphql/introduction-graphql-queries/| https://www.youtube.com/watch?v=mE1Jgvn4k1g |
